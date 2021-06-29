@@ -4,5 +4,5 @@
     $sql = "INSERT INTO emailList (email, created) VALUES ('$email', NOW())";
     $conn -> query($sql);
     $conn -> close();
-    header("location: index.php");
+    header("location: index.html");
 ?>

@@ -8,6 +8,12 @@
         <h1>PHP MySQL Email CRUD</h1>
         <p>Create, read, update and delete email(s) below:</p>
 
+        <table class="table">
+            <tbody>
+                <?php include 'read.php'; ?>
+            </tbody>
+        </table>
+
         <form class="form-inline m-2" action="create.php" method="POST">
             <label for="email">Email:</label>
             <input type="email" class="form-control m-2" id="email" name="email">
